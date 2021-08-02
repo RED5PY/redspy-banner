@@ -37,7 +37,7 @@ bash pkg.sh
 
 clear
 
-read -p " subscribe my channer : "Enter
+read -p " subscribe my channel : "Enter
 
 am start -a android.intent.action.VIEW -d https://youtube.com/channel/UCXKJCGW0beO1Jdhd7AehZPg
 
