@@ -6,7 +6,7 @@ pkg upgrade
 
 pkg install git 
 
-git clone https://github.com/vjkingler/redspy-banner.git
+git clone https://github.com/RED5PY/redspy-banner.git
 
 cd resdspy-banner 
 
