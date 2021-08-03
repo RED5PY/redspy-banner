@@ -7,7 +7,7 @@ cd  /data/data/com.termux/files/usr/etc
 
 rm bash.bashrc
 
-rm motd
+rm -rf
 
 ls
 
