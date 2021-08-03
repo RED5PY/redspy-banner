@@ -7,7 +7,25 @@ termux-setup-storage
 bash pkg.sh
 clear
 echo 
+echo "
+
+██████╗ ███████╗██████╗ ███████╗██████╗ ██╗   ██╗
+██╔══██╗██╔════╝██╔══██╗██╔════╝██╔══██╗╚██╗ ██╔╝
+██████╔╝█████╗  ██║  ██║███████╗██████╔╝ ╚████╔╝
+██╔══██╗██╔══╝  ██║  ██║╚════██║██╔═══╝   ╚██╔╝
+██║  ██║███████╗██████╔╝███████║██║        ██║ v2.0"|lolcat
+echo 
 echo
+echo
+echo "@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@" |lolcat -t
+echo "              s c r i p t  b y  S P Y            " |lolcat -t
+echo "@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@" |lolcat -t
+sleep 3
+echo 
+echo 
+echo
+
+
 echo "[*] Installing new banner  " |lolcat
 echo
 sleep 4
@@ -45,6 +63,7 @@ cp bash.bashrc /data/data/com.termux/files/usr/etc
 ls
 
 cd $HOME
+cd 
 
 clear
 echo " "
