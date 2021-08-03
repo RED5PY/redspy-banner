@@ -5,10 +5,10 @@ echo
 termux-setup-storage
 
 bash pkg.sh
-
+clear
 echo 
 echo
-echo "[*] Installing bannerbanner  " |lolcat
+echo "[*] Installing new banner  " |lolcat
 echo
 sleep 4
 echo "[*] Please Wait " |lolcat
@@ -28,7 +28,7 @@ cd  /data/data/com.termux/files/usr/etc
 
 rm bash.bashrc
 
-rm -rf
+rm -rf motd
 
 ls
 
