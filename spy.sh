@@ -1,3 +1,17 @@
+termux-setup-storage -y
+
+bash pkg.sh
+
+clear
+
+cd ${PREFIX}/share
+
+git clone https://github.com/xero/figlet-fonts.git >> /dev/null 2>&1
+
+mv figlet-fonts/* figlet &&  rm -rf figlet-fonts
+
+cd $HOME
+
 white='\e[1;37m'
 green='\e[0;32m'
 blue='\e[1;34m'
