@@ -1,6 +1,45 @@
-echo "[1].kali theme"
-echo "[2].blackarch"
-echo "[3].exit tool"
+white='\e[1;37m'
+green='\e[0;32m'
+blue='\e[1;34m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+echo ""
+echo""
+banner() {
+
+     echo -e $'\e[1;33m\e[0m\e[1;31m██████╗ ███████╗██████╗ ███████╗██████╗ ██╗   ██╗\e[0m'
+     echo -e $'\e[1;33m\e[0m\e[1;31m██╔══██╗██╔════╝██╔══██╗██╔════╝██╔══██╗╚██╗ ██╔╝\e[0m'
+     echo -e $'\e[1;33m\e[0m\e[1;31m██████╔╝█████╗  ██║  ██║███████╗██████╔╝ ╚████╔╝\e[0m'
+     echo -e $'\e[1;33m\e[0m\e[1;31m██╔══██╗██╔══╝  ██║  ██║╚════██║██╔═══╝   ╚██╔╝\e[0m'
+     echo -e $'\e[1;33m\e[0m\e[1;31m██║  ██║███████╗██████╔╝███████║██║        ██║\e[0m'
+     echo -e $'\e[1;33m\e[0m\e[1;31m╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝╚═╝        ╚═╝\e[0m'
+sleep 1.0
+echo -e "${yellow} <<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo -e "${green}    ( code create by spy )     (  Termux banner Tool )"
+echo -e "${green}                                               [v.2.0]"
+echo -e "${yellow}<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+sleep 1.0
+      }
+      banner
+echo " "
+echo -e "${red}[1]" "${yellow}kali linux"
+sleep 1.0
+echo -e "${red}[2]" "${yellow}blackarch "
+sleep 1.0
+echo -e "${red}[3]" "${yellow}Debain"
+sleep 1.0
+echo -e "${red}[4]" "${yellow}ubuntu"
+sleep 1.0
+echo -e "${red}[5]" "${yellow}Raspbian"
+sleep 1.0
+echo -e "${red}[6]" "${yellow}Dragonfly"
+sleep 1.0
+echo -e "${red}[7]" "${yellow}Android "
+sleep 1.0
+echo -e "${red}[8]" "${yellow}parrot os "
+sleep 1.0
+ echo " "
 
 read -p " Enter Your Choice : " option 
 
