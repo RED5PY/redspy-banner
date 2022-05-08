@@ -40,7 +40,7 @@ sleep 1.0
 echo -e "${red}[8]" "${yellow}parrot os "
 sleep 1.0
  echo " "
-
+printf ${green}
 read -p " Enter Your Choice : " option 
 
 if [[ $option == 1 || $option == 01 ]]; then
