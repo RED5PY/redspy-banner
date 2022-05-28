@@ -8,7 +8,7 @@ cd /data/data/com.termux/files/usr/share/figlet
 
 git clone https://github.com/xero/figlet-fonts.git >> /dev/null 2>&1
 
-mv figlet-fonts/* figlet &&  rm -rf figlet-fonts
+mv figlet-fonts/* /data/data/com.termux/files/usr/share/figlet&&  rm -rf figlet-fonts
 
 cd $HOME
 white='\e[1;37m'
@@ -65,7 +65,7 @@ echo -p ${yellow}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
-echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
+echo "figlet -f 'ANSI Shadow.flf'  '      $varbanner' |lolcat -t " >> spyban.txt
 
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -90,7 +90,7 @@ echo -p ${yellow}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
-echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
+echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -114,7 +114,7 @@ echo -p ${yellow}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
-echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
+echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -140,7 +140,7 @@ echo -p ${yellow}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
-echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
+echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
@@ -165,7 +165,7 @@ echo -p ${yellow}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
-echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
+echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
