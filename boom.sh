@@ -4,7 +4,7 @@ bash pkg.sh
 
 clear
 
-cd ${PREFIX}/share/figlet
+cd /data/data/com.termux/files/usr/share/figlet
 
 git clone https://github.com/xero/figlet-fonts.git >> /dev/null 2>&1
 
@@ -70,9 +70,9 @@ echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "kali" >> /data/data/com.termux/files/usr/etc
+cat "kali" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
-
+bash
 
 }
 
@@ -95,8 +95,9 @@ echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "blackarch" >> /data/data/com.termux/files/usr/etc
+cat "blackarch" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
+bash
 }
 
 install_debian(){
@@ -118,8 +119,9 @@ echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "debian" >> /data/data/com.termux/files/usr/etc
+cat "debian" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
+bash
 }
 
 
@@ -143,10 +145,9 @@ echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "Raspbian" >> /data/data/com.termux/files/usr/etc
+cat "Raspbian" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
-
-
+bash
 }
 
 install_dragonfly(){
@@ -169,9 +170,9 @@ echo "figlet  '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "Drangonfly" >> /data/data/com.termux/files/usr/etc
+cat "Drangonfly" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
-
+bash
 }
 
 if [[ $option == "1" ]]; then
