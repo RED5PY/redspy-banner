@@ -10,4 +10,4 @@ git clone https://github.com/RED5PY/redspy-banner.git
 
 cd redspy-banner 
 
-bash redspy.sh
+bash boom.sh
