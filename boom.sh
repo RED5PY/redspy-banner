@@ -6,7 +6,7 @@ clear
 
 cd /data/data/com.termux/files/usr/share/figlet
 
-git clone https://github.com/xero/figlet-fonts.git >> /dev/null 2>&1
+git clone https://github.com/xero/figlet-fonts.git
 
 mv figlet-fonts/* /data/data/com.termux/files/usr/share/figlet&&  rm -rf figlet-fonts
 
@@ -103,7 +103,7 @@ echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cp "blackarc" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cat "blackarc" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
 cd $HOME
 bash
