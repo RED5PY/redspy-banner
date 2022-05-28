@@ -66,6 +66,7 @@ rm -rf motd-playstore.dpkg-old
 rm -rf motd.dpkg-old
 rm -rf bash.bashrc
 apt update
+apt upgrade -y
 clear
 touch bash.bashrc
 echo -p ${Y}"please enter your banner name:"
@@ -92,6 +93,7 @@ rm -rf motd-playstore.dpkg-old
 rm -rf motd.dpkg-old
 rm -rf bash.bashrc
 apt update
+apt upgrade -y
 clear
 touch bash.bashrc
 echo -p ${Y}"please enter your banner name:"
@@ -117,6 +119,7 @@ rm -rf motd-playstore.dpkg-old
 rm -rf motd.dpkg-old
 rm -rf bash.bashrc
 apt update
+apt upgrade -y
 clear
 touch bash.bashrc
 echo -p ${Y}"please enter your banner name:"
@@ -144,6 +147,7 @@ rm -rf motd-playstore.dpkg-old
 rm -rf motd.dpkg-old
 rm -rf bash.bashrc
 apt update
+apt upgrade -y
 clear
 touch bash.bashrc
 echo -p ${Y}"please enter your banner name:"
@@ -170,6 +174,7 @@ rm -rf motd-playstore.dpkg-old
 rm -rf motd.dpkg-old
 rm -rf bash.bashrc
 apt update
+apt upgrade -y
 clear
 touch bash.bashrc
 echo -p ${Y}"please enter your banner name:"
