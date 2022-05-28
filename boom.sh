@@ -13,6 +13,11 @@ mv figlet-fonts/* /data/data/com.termux/files/usr/share/figlet&&  rm -rf figlet-
 clear
 
 cd $HOME
+R="$(printf '\033[1;31m')"
+G="$(printf '\033[1;32m')"
+Y="$(printf '\033[1;33m')"
+W="$(printf '\033[1;37m')"
+C="$(printf '\033[1;36m')"
 white='\e[1;37m'
 green='\e[0;32m'
 blue='\e[1;34m'
@@ -63,7 +68,7 @@ rm -rf bash.bashrc
 apt update
 clear
 touch bash.bashrc
-echo -p "${yellow}please enter your banner name:"
+echo -p ${Y}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
@@ -89,7 +94,7 @@ rm -rf bash.bashrc
 apt update
 clear
 touch bash.bashrc
-echo -p "${yellow}please enter your banner name:"
+echo -p ${Y}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
@@ -98,7 +103,7 @@ echo "figlet -f 'ANSI Shadow.flf' '      $varbanner' |lolcat -t " >> spyban.txt
 cat "spyban.txt" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 cd $HOME/redspy-banner/themes
-cat "blackarc" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cp "blackarc" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 clear
 cd $HOME
 bash
@@ -114,7 +119,7 @@ rm -rf bash.bashrc
 apt update
 clear
 touch bash.bashrc
-echo -p "${yellow}please enter your banner name:"
+echo -p ${Y}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
@@ -141,7 +146,7 @@ rm -rf bash.bashrc
 apt update
 clear
 touch bash.bashrc
-echo -p "${yellow}please enter your banner name:"
+echo -p ${Y}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
@@ -167,7 +172,7 @@ rm -rf bash.bashrc
 apt update
 clear
 touch bash.bashrc
-echo -p "${yellow}please enter your banner name:"
+echo -p ${Y}"please enter your banner name:"
 sleep 1.0
 read varbanner
 
@@ -183,31 +188,31 @@ bash
 }
 
 if [[ $option == "1" ]]; then
-     echo "${yellow}[*] Installing kali..."
+     echo ${Y}"[*] Installing kali..."
      sleep 1.0
      echo
      install_kali
  elif [[ $option == "2" ]]; then
-     echo "${yellow}[*] Installing blackarch..."
+     echo ${Y}"[*] Installing blackarch..."
      sleep 1.0
      echo
      installl_blackarch 
  elif [[ $option == "3" ]]; then
-     echo "${yellow}[*] Installing debian"
+     echo ${Y}"[*] Installing debian"
      echo
      sleep 1.0
      install_debian
  elif [[ $option == "4" ]]; then
-     echo "${yellow}[*] Installing raspbian..."
+     echo ${Y}"[*] Installing raspbian..."
      sleep 1.0
      echo
      install_raspbian
  elif [[ $option == "5" ]]; then
-     echo "${yellow}[*] Installing dragonfly..."
+     echo ${Y}"[*] Installing dragonfly..."
      echo
      install_dragonfly
 
 else
-        echo "${yellow}[*] Error, Select a option from the above list"
+        echo ${R}"[*] Error, Select a option from the above list"
         echo
 fi
