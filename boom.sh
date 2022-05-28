@@ -10,6 +10,8 @@ git clone https://github.com/xero/figlet-fonts.git >> /dev/null 2>&1
 
 mv figlet-fonts/* /data/data/com.termux/files/usr/share/figlet&&  rm -rf figlet-fonts
 
+clear
+
 cd $HOME
 white='\e[1;37m'
 green='\e[0;32m'
