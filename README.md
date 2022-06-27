@@ -1,13 +1,13 @@
 # redspy-banner
 
-pkg update 
+'pkg update' 
 
-pkg upgrade 
+'pkg upgrade' 
 
-pkg install git 
+'pkg install git' 
 
-git clone https://github.com/RED5PY/redspy-banner.git
+'git clone https://github.com/RED5PY/redspy-banner.git'
 
-cd redspy-banner 
+’cd redspy-banner' 
 
-bash boom.sh
+'bash boom.sh'
