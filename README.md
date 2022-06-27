@@ -34,3 +34,10 @@
 * `cd redspy-banner` 
 
 * `bash boom.sh`
+
+# use one line command 
+```
+apt update && apt upgrade && apt install git && git clone https://github.com/RED5PY/redspy-banner.git && cd redspy-banner && bash boom.sh
+
+```
+
