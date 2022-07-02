@@ -13,8 +13,8 @@
 * Termux
 
 ### REQUIREMENTS :
-* internet 300 MB
-* storage 300 MB
+* internet 100 MB
+* storage 100 MB
 
 ## FEATURES :
 * [+] Kali linex theme 
